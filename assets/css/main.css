@@ -1,0 +1,169 @@
+@import url(./base.css);
+/* header*/
+.header{
+    background-color: white;
+    padding-block: 15px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+
+}
+.header .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header .logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header .logo .our-logo{
+ width: 30px;
+}
+.header .logo .our-name{
+    width: 100px;
+}
+.header .nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;   
+}
+.header .nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 25px;
+}
+.header .nav ul li a{
+    color: #101928;
+    font-family: Poppins;
+}
+.header .container .bars {
+   display: none;
+}
+@media (max-width:1070px){
+   
+    .header .nav{
+        display: none;
+    }
+    .header .container .bars {
+        display: block;
+        width: 20px;
+        align-self: center;
+    }
+
+}
+.header .btns{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.header .btns a{
+    padding: 10px 30px;
+    border-radius: 7px; 
+    font-family: Poppins;
+}
+.header .btns a:first-of-type{
+    background-color: white;
+    color: #545BE8;
+    border: 1px solid #545BE8;
+      
+}
+.header .btns a:last-of-type{
+    background-color: #545BE8;
+    color:white;
+   
+    border: 1px solid #545BE8; 
+}
+@media (max-width:1070px) {
+    .header .btns a{
+        padding: 7px 20px;
+    }
+}
+/*end header*/
+/*begins*/
+.begins{
+    padding-block:35px;
+}
+.begins .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.description-begins{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+   justify-content: center;
+    gap: 20px;
+    width: calc((100% - 20px) / 2);
+    /*background-color: aqua;*/
+    flex:2;
+}
+.description-begins .description-begins-span{
+    color: #545BE8;
+    font-family:Poppins;
+    font-size: 12px;
+}
+
+.description-begins h2{
+    color: #141E32;
+    font-family:Poppins;
+    font-size: 50px;
+    
+}
+.description-begins h2 .course{
+    color:#545BE8;
+}
+.description-begins p{
+    font-family:Poppins;
+    color: #969696;
+    font-size: 12px;
+}
+.description-begins .btns-begins{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    font-family:Poppins;
+    color:#545BE8;
+}
+.btns-begins a:first-of-type{
+    background-color: #545BE8;
+    color: white;
+    border: 1px solid #545BE8;
+    border-radius: 7px;
+    padding: 10px 40px;
+}
+.btns-begins a:last-of-type{
+    color:#141E32;
+    padding: 10px 30px;
+}
+.btns-begins a .fa-solid{
+    color: #F0C932;
+    padding: 0 5px;
+}
+/*@media (max-width:1440px){
+    .begins .btns-begins{
+        width: 80%;
+     }
+}*/
+@media (max-width:1070px) {
+    
+    .begins .btns-begins a{
+        padding: 7px 20px;
+    }
+    .btns-begins a .fa-solid{
+        padding: 0 5px 0 0;
+    }
+}
+.img-begins{
+    flex:4;
+    /*background-color: #F0C932;*/
+    display: flex;
+    justify-content: space-evenly;   
+}
+.img-begins img{
+    width:400px;
+}
+/* end begins*/

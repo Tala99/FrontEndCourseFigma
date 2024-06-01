@@ -55,6 +55,9 @@
 }
 
 @media (max-width:1070px) {
+    .header .container{
+        width: 100%;
+    }
 
     .header .nav {
         display: none;
@@ -200,16 +203,22 @@
 }
 
 /* end begins*/
-/*.box-color{
-    height: 450px;
-    width: 700px;
+.box-color{
+    height: 465px;
+    width: 1200px;
     background-color: #F5F5F5;
     position: absolute;
     left: 150px;
     top: 400px;
     opacity: 0.7;
     z-index: -1;
-}*/
+}
+@media (max-width:1350px){
+    .box-color{
+        display: none;
+    }
+    
+}
 
 /*give*/
 .give {}
@@ -553,7 +562,12 @@
 @media (max-width:700px) {
     .Courses .container {
         width: 100%;
+        flex-direction: column;
     }
+    .Courses .container .Course-cards{
+        justify-content: center;
+    }
+
 }
 
 /*end courses*/

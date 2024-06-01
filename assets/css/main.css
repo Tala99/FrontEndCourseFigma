@@ -511,6 +511,7 @@
 
 .Course-cards .course-card .first-line-card span {
     color: #545BE8;
+    padding-right: 5px;
 }
 
 .Course-cards .course-card .details {
@@ -621,7 +622,7 @@ display: flex;
     height: 50px;
     display: flex;
 }
-testimonial .user-info .user-data{
+.testimonial .user-info .user-data{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
